@@ -10,7 +10,7 @@ function App() {
     {
       nome: 'Programação',
       corPrimaria: '#57c278',
-      corSecunraria: '#D9f7e9',
+      corSecundaria: '#D9f7e9',
     }, 
     {
       nome: 'Front-End',
@@ -47,7 +47,6 @@ function App() {
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    console.log(colaborador)
     setColaboradores([...colaboradores, colaborador])
   }
 
